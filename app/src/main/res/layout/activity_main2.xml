@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#00BCD4"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/giaohang"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:text="  Profile Name "
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6DDCEA"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:text="Information"
+            android:gravity="center"/>
+        <EditText
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="email"
+            android:textStyle="italic"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="phone"
+            android:textStyle="italic"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="sky"
+            android:textStyle="italic"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="web"
+            android:textStyle="italic"
+            android:textColor="@android:color/background_dark" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_blue_bright"
+            android:textColor="@android:color/white"
+            android:text="BACK"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</RelativeLayout>
